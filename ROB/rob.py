@@ -13,7 +13,7 @@ XY = [0, 0]  # Current position
 if (XY == destinationXY):
     output += 1
 end = False
-while end == False:
+while True:
     stage = i % 4
     current_d = d[i % n]
     pending_t = tmax-t
@@ -37,6 +37,9 @@ while end == False:
         if (destinationXY[1] == XY[1]) & (XY[0] > destinationXY[0]) & (XY[0]-current_d <= destinationXY[0]):
             output += 1
         XY[0] -= current_d
-    t += current_d+1  # +1 because of 90 degrees rotation
-    i += 1
+    if end == False:
+        t += current_d+1  # +1 because of 90 degrees rotation
+        i += 1
+    else:
+        break
 print(output)

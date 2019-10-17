@@ -13,3 +13,5 @@ https://szkopul.edu.pl/problemset/problem/p4hlBS7BwoH_rymSj2wtb5_J/site/?key=sta
   1) Pierwsza wartość: n - ilość wszystkich komend; Druga wartość: t - czas (w sekundach)
   2) n wartości: d - komendy
   3) Pierwsza wartość: x; Druga wartość: y; - współrzędne miejsca dla którego liczymy ile razy zostało przekroczone
+### Output:
+  1) Ile razy punkt (x,y) został przekroczony

@@ -106,3 +106,9 @@ venv.bak/
 # Code editors files
 .vscode/
 .idea/
+
+# PDFs
+*.pdf
+
+# Private until the competition would be ended
+BAS/bas.py
